@@ -9,6 +9,7 @@ This repository contains solutions to various machine learning problems, with a 
 ```
 classification/
 	kidney/
+		kidney_disease.csv
 		kidney_disease.ipynb
 		__init__.py
 	cab_cancellation/
