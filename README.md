@@ -5,13 +5,18 @@ This repository contains solutions to various machine learning problems, with a 
 
 ## Project Structure
 
+
 ```
 classification/
-  kidney/
-	 kidney_disease.ipynb
-	 __init__.py
+	kidney/
+		kidney_disease.ipynb
+		__init__.py
+	cab_cancellation/
+		YourCabs_Imbalanced_Classes_Project.ipynb
+		YourCabs.csv
 README.md
 ```
+
 
 ## Chronic Kidney Disease Classification
 
@@ -22,6 +27,19 @@ Classify whether a patient is likely to develop chronic kidney disease based on 
 - Data preprocessing and exploration
 - Model training and evaluation
 - Jupyter notebook for interactive analysis
+
+---
+
+## Cab Ride Cancellation Classification
+
+**Objective:**
+Develop a model to identify, based on booking details, whether a cab ride will be cancelled or not. This helps the company proactively manage cancellations and implement a penalty system for riders who frequently cancel rides. The penalty collected from riders will be distributed to affected customers as compensation.
+
+### Features
+- Data analysis of imbalanced classes
+- Predictive modeling for ride cancellation
+- Business logic for penalty and compensation
+- Jupyter notebook for step-by-step workflow
 
 ## Getting Started
 
@@ -34,13 +52,17 @@ Classify whether a patient is likely to develop chronic kidney disease based on 
 	- Recommended: Use a Python virtual environment (e.g., `venv` or `conda`).
 	- Install required packages (see notebook for details).
 
-3. **Run the notebook:**
-	- Open `classification/kidney/kidney_disease.ipynb` in Jupyter or VS Code.
-	- Follow the steps in the notebook to explore data and train models.
 
-## Dataset
+3. **Run the notebooks:**
+	- For kidney disease: Open `classification/kidney/kidney_disease.ipynb` in Jupyter or VS Code.
+	- For cab cancellation: Open `classification/cab_cancellation/YourCabs_Imbalanced_Classes_Project.ipynb` in Jupyter or VS Code.
+	- Follow the steps in each notebook to explore data and train models.
 
-The dataset used for chronic kidney disease classification is included or referenced in the notebook. Please refer to the notebook for download instructions or data source links.
+
+## Datasets
+
+- **Chronic Kidney Disease:** The dataset is included or referenced in the notebook. See instructions in the notebook for details.
+- **Cab Cancellation:** The dataset (`YourCabs.csv`) is provided in the `classification/cab_cancellation/` directory. Refer to the notebook for usage and details.
 
 ## Contributing
 
